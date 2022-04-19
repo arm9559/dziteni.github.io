@@ -1,0 +1,32 @@
+.gallery{
+  margin-top: 120px;
+}
+.flex-system > .flex{
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  grid-gap: 2px;
+}
+.flex > img{
+  height: 480px;
+  transition: 0.5s all;
+}
+.flex > img:hover{
+  filter:brightness(70%);
+  cursor: pointer;
+}
+.flex > img:nth-child(odd){
+  width:50vw;
+  object-fit: cover;
+}
+.flex > img:nth-child(even){
+  width: 40vw;
+  object-fit: cover;
+}
+.flex:nth-child(odd){
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gallery-for-scroll{
+  margin-top: -60px;
+}

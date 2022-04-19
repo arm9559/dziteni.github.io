@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100;200&display=swap");
+.menu {
+  background-size: cover;
+  background-blend-mode: lighten;
+  position: relative;
+  margin-top: 120px !important;
+}
+.logo-image {
+  height: 7vh !important;
+}
+
+.menu-font {
+  font-size: 25px !important;
+  font-family: "Noto Sans Armenian", sans-serif !important;
+  color: #C7B493 !important;
+}
+
+.menu-img {
+  height: 25vh;
+  border-radius: 50%;
+}
+
+.menu-item {
+  padding: 20.4px;
+}
+
+.menu-style {
+  font-family: "Noto Sans Armenian", sans-serif !important;
+  color: #C7B493 !important;
+}
+
+@media only screen and (max-width: 530px) {
+  #topbar > div {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    grid-gap: 8px;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}

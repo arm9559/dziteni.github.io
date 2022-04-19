@@ -1,0 +1,22 @@
+.blog{
+    margin-top: 75px;
+    height: auto;
+}
+.blog-style{
+    font-family: 'Noto Sans Armenian', sans-serif !important;
+    color:#C7B493 !important;
+}
+.row > div{
+    flex-wrap: wrap !important;
+}
+.blog-image > img{
+    border-radius: 12px;
+    transition:  transform .2s;
+    cursor: pointer;
+}
+.blog-image > img:hover{
+    transform: scale(1.1);
+}
+.blog-text{
+    margin-left: 15px;
+}
